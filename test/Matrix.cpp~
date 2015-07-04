@@ -1,0 +1,17 @@
+/*
+ * This is an example unit test that doesn't really do anything useful.
+ * It is here as a reference for you when creating additional unit tests.
+ * For additional reference information, see the "test.h" header.
+ */
+
+#include "test.h" // Brings in the Catch framework
+
+#include "Matrix.h"
+
+TEST_CASE("Maximum subarray", "[maximum_subarray]") {
+  REQUIRE( 1 == 1 );
+}
+
+TEST_CASE("Majority element", "[majority_element]") {
+  REQUIRE( 10 == 10 );
+}
